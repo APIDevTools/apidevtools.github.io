@@ -70,6 +70,15 @@ header h2 {
   max-width: 100%;
 }
 
+.error-page {
+  min-height: 1000px;
+}
+
+.error-page p {
+  font-size: larger;
+  margin-top: 2em;
+}
+
 footer {
   color: #aaa;
   font-size: 12px;

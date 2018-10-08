@@ -179,10 +179,16 @@ hr {
 table {
   width: 100%;
   border: 1px solid #ebebeb;
+  background-color: white;
+}
+
+td, th {
+  padding: .2em .5em;
 }
 
 th {
-  font-weight: 500;
+  font-weight: bold;
+  white-space: nowrap;
 }
 
 td {
@@ -253,7 +259,7 @@ form {
 #main-content h4 {
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: bold;
   color: #474747;
   text-indent: 3px;
@@ -269,7 +275,7 @@ h4:before {
 #main-content h5 {
   margin-bottom: 8px;
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #474747;
   text-indent: 3px;
 }

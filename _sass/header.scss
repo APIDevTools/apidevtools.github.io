@@ -29,12 +29,24 @@ header {
 
   .buttons {
     position: absolute;
-    top: 0;
+    top: -10px;
     right: 0;
-    min-height: 180px;
+    min-height: 170px;
   }
 
   a.button {
+    &.logo-button {
+      background: transparent url(/img/theme/logo-button.png) 0 0 no-repeat;
+      display: block;
+      width: 202px;
+      height: 80px;
+      margin-bottom: 10px;
+
+      span {
+        display: none;
+      }
+    }
+
     &.github-button {
       background: transparent url(/img/theme/github-button.png) 0 0 no-repeat;
       display: block;
@@ -50,15 +62,6 @@ header {
       small {
         display: block;
         font-size: 11px;
-      }
-    }
-
-    &.logo-button {
-      background: transparent url(/img/theme/logo-button.png) 0 0 no-repeat;
-      display: block;
-
-      span {
-        display: none;
       }
     }
   }
@@ -103,9 +106,19 @@ header {
       display: block;
       width: auto;
       margin-top: 15px;
+      min-height: 0;
     }
 
     a.button {
+      &.logo-button {
+        position: absolute;
+        top: -95px;
+        left: 0;
+        height: 50px;
+        background-size: contain;
+        margin: 0;
+      }
+
       &.github-button {
         display: inline-block;
         width: auto;
@@ -125,12 +138,6 @@ header {
           display: inline;
           font-size: 13px;
         }
-      }
-
-      &.logo-button {
-        position: absolute;
-        top: 10px;
-        left: 10px;
       }
     }
   }

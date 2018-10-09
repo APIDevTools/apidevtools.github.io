@@ -19,9 +19,14 @@ $bg-color: #fafafa;
 
 // Standard Sizes
 // ===============================
-$content-width-monitor: 940px;
-$content-width-tablet: 740px;
-$content-width-phone: 93%;
+$monitor-min-width: 960px;
+$tablet-max-width: $monitor-min-width - 1px;
+$tablet-min-width: 768px;
+$phone-max-width: $tablet-min-width - 1px;
+
+$monitor-content-width: 940px;
+$tablet-content-width: 740px;
+$phone-content-width: 93%;
 
 $large-vertical-space: 40px;
 $medium-vertical-space: 30px;
@@ -29,7 +34,8 @@ $small-vertical-space: 20px;
 $tiny-vertical-space: 3px;
 
 $large-horizontal-space: 30px;
-$small-horizontal-space: 20px;
+$medium-horizontal-space: 20px;
+$small-horizontal-space: 10px;
 $tiny-horizontal-space: 5px;
 
 
@@ -37,6 +43,8 @@ $tiny-horizontal-space: 5px;
 // ===============================
 $heading-color: #474747;
 $heading-border: $light-blue;
+
+$heading-left-padding: $small-horizontal-space;
 
 
 // Site Header

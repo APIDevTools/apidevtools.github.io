@@ -3,6 +3,7 @@
 $dark-blue: #2268b2;
 $medium-blue: #2879d0;
 $light-blue: #9ddcff;
+$bright-blue: #4184F7;
 
 $darkest-grey: #222;
 $dark-grey: #444;
@@ -49,7 +50,7 @@ $heading-left-padding: $small-horizontal-space;
 
 // Site Header
 // ===============================
-$header-bg: #4184F7;
+$header-bg: $bright-blue;
 $header-border: #275da1;
 $header-text: $bright-white;
 

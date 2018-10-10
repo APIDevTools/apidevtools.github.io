@@ -1,14 +1,15 @@
 code, pre {
   margin-bottom: $medium-vertical-space;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  font-size: 13px;
+  font-size: smaller;
   color: $darkest-grey;
 }
 
 code {
-  padding: 0 $tiny-horizontal-space;
+  padding: $tiny-vertical-space $tiny-horizontal-space;
   background-color: $code-bg;
   border: solid 1px $code-border;
+  white-space: nowrap;
 }
 
 pre {
@@ -19,9 +20,10 @@ pre {
   border: solid 1px $code-border;
 
   code {
-    padding: 0;
     color: $medium-blue;
     background-color: $code-bg;
+    padding: 0;
     border: none;
+    white-space: pre;
   }
 }

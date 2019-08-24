@@ -1,5 +1,5 @@
-https://apidevtools.org/swagger-parser/
-https://apidevtools.org/swagger-express-middleware/
-https://apidevtools.org/swagger-cli/
-https://apidevtools.org/json-schema-ref-parser/
-https://apidevtools.org/openapi-schemas/
+https://apitools.dev/swagger-parser/
+https://apitools.dev/swagger-express-middleware/
+https://apitools.dev/swagger-cli/
+https://apitools.dev/json-schema-ref-parser/
+https://apitools.dev/openapi-schemas/

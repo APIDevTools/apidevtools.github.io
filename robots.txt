@@ -1,5 +1,5 @@
 # www.robotstxt.org/
-Sitemap: https://apidevtools.org/sitemap.txt
+Sitemap: https://apitools.dev/sitemap.txt
 
 # Allow crawling of all content
 User-agent: *
